@@ -33,7 +33,7 @@ The following example demonstrates how a user interacts with the AI Cyberpunk Th
 Auto-complete: The robotic assistant
 
 4. **Next Word Prediction**: The program predicts the next possible word based on the last word "robotic assistant":
-<img src="https://github.com/user-attachments/assets/9e896413-0844-4039-9f8b-b27f15c961ec" alt="Auto-complete Suggestion" height="100">
+<img src="https://github.com/user-attachments/assets/9e896413-0844-4039-9f8b-b27f15c961ec" alt="Auto-complete Suggestion" height="60">
 
 5. **Undo Last Input**: If the user wants to undo the last word, they can type `undo`:
 ![160621728828136_ pic](https://github.com/user-attachments/assets/3e476d7a-f1e6-4f7a-99fc-af1d9e1c4ff1)
