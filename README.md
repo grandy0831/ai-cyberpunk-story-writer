@@ -18,3 +18,9 @@ This project is an AI-powered story generator with a focus on Cyberpunk and futu
    - **Next word prediction**: After you input a word, the program will predict the next word or phrase, providing up to 5 suggestions. You can choose a number between 1 and the number of predictions or enter your own word.
    - **Undo last word**: If you made a mistake or want to remove the last word, type `undo` to delete the previous input.
    - **Exit the program**: When you are done writing, type `exit` to finish and display the full story.
+
+## Interaction Record
+
+The following example demonstrates how a user interacts with the AI Cyberpunk Themed Story Writer.
+
+1. **User Input**: The user starts typing a part of the story:
