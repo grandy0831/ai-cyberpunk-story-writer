@@ -57,6 +57,7 @@ def get_next_word_prediction(last_word, word_pair_dict):
     if last_word in word_pair_dict:
         return word_pair_dict[last_word][:5]  # Return up to 5 predicted words or phrases
     return None
+```
 
 1. **Input**: The function takes the last word entered by the user and looks for it in the `word_pair_dict` dictionary.
    - The input word is first converted to lowercase to ensure that matching is case-insensitive.
@@ -80,5 +81,5 @@ word_pair_dict = {
     "artificial": ["intelligence", "life", "reality", "consciousness", "learning"],
     ...
 }
-
+```
 When a user types a word like "robot", the function will search for this word in the word_pair_dict, and if found, it will provide the associated next words from the dictionary as predictions.
