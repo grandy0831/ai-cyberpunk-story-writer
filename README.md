@@ -94,6 +94,7 @@ I, Guandi Chen, confirm that the work presented in this assessment is my own. Wh
 
 
 Guandi Chen<br>
-Email: u3641333@connect.hku.hk
+Email: u3641333@connect.hku.hk<br>
+
 13 Oct 2024
 
