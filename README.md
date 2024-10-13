@@ -29,7 +29,7 @@ The following example demonstrates how a user interacts with the AI Cyberpunk Th
 2. **Auto-complete Suggestions**: The program offers several auto-complete options for the last word entered:
 ![160571728826941_ pic](https://github.com/user-attachments/assets/2520de8b-cc9c-4018-8cb8-a43b4c782850)
 
-3. **User Selection**: The user selects option 2:
+3. **User Selection**: The user selects option 2:<br>
 Auto-complete: The robotic assistant
 
 4. **Next Word Prediction**: The program predicts the next possible word based on the last word "robotic assistant":
@@ -43,3 +43,42 @@ Auto-complete: The robotic assistant
 ![160601728826941_ pic](https://github.com/user-attachments/assets/cb2d8a44-c8ef-4ac1-b2aa-f502e64d17e6)
 
 This interaction record showcases how the user can input words, choose from auto-complete suggestions, predict the next word, and undo their last input in a seamless manner.
+
+## Prediction Method
+
+The `get_next_word_prediction` function is responsible for predicting the next word or phrase based on the user's input. It uses a predefined dictionary `word_pair_dict` that associates specific words with potential next words, particularly focusing on AI, robots, cyberpunk, and futuristic themes.
+
+### Function Explanation
+
+```python
+def get_next_word_prediction(last_word, word_pair_dict):
+    """Provides next word prediction based on the last word entered."""
+    last_word = last_word.lower()  # Normalize the input to lower case
+    if last_word in word_pair_dict:
+        return word_pair_dict[last_word][:5]  # Return up to 5 predicted words or phrases
+    return None
+
+1. **Input**: The function takes the last word entered by the user and looks for it in the `word_pair_dict` dictionary.
+   - The input word is first converted to lowercase to ensure that matching is case-insensitive.
+
+2. **Dictionary Lookup**:
+   - If the last word exists in the `word_pair_dict`, the function returns up to 5 potential next words or phrases. These next word predictions are predefined based on common associations in the cyberpunk and AI-themed domain.
+   - For example, if the last word is `"robot"`, the function might return next word predictions such as `"revolution"`, `"assistant"`, `"control"`, `"worker"`, and `"intelligence"`.
+
+3. **Return Value**:
+   - If the word is found in the dictionary, the first 5 associated words or phrases are returned as suggestions.
+   - If the word is not found in the dictionary, the function returns `None`, meaning no predictions are available.
+
+### Example of `word_pair_dict`
+
+The `word_pair_dict` is a dictionary that contains word pairs with up to 5 associated predictions. Here’s an example of how it is structured:
+
+```python
+word_pair_dict = {
+    "robot": ["revolution", "assistant", "control", "worker", "intelligence"],
+    "cybernetic": ["organism", "implant", "system", "enhancement", "body"],
+    "artificial": ["intelligence", "life", "reality", "consciousness", "learning"],
+    ...
+}
+
+When a user types a word like "robot", the function will search for this word in the word_pair_dict, and if found, it will provide the associated next words from the dictionary as predictions.
