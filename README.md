@@ -88,3 +88,8 @@ When a user types a word like "robot", the function will search for this word in
 ## Conclusion
 
 The AI Cyberpunk Themed Story Writer is an interactive and engaging application that allows users to create dynamic stories with the assistance of AI-powered auto-complete and prediction features. By focusing on cyberpunk and futuristic themes, it provides a unique storytelling experience. The ability to undo inputs further enhances the user experience, making it flexible and user-friendly. This project demonstrates the practical application of predictive algorithms in creative writing, making it a powerful tool for generating stories in an immersive, high-tech world.
+
+##  Contact Details
+
+Guandi Chen,
+Email: u3641333@connect.hku.hk
