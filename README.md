@@ -1,7 +1,7 @@
 # AI Cyberpunk Themed Story Writer
 
 This project is an AI-powered story generator with a focus on Cyberpunk and futuristic themes. The program provides auto-complete suggestions and next word predictions based on the user's input. Additionally, users can undo their last input, creating an interactive and flexible story-writing experience.
-[GitHub Repository: ai-cyberpunk-story-writer](https://github.com/grandy0831/ai-cyberpunk-story-writer)
+[GitHub Repository: ai-cyberpunk-story-writer(https://github.com/grandy0831/ai-cyberpunk-story-writer)](https://github.com/grandy0831/ai-cyberpunk-story-writer)
 
 ## User Manual
 
