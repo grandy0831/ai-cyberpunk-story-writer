@@ -39,7 +39,7 @@ Auto-complete: The robotic assistant
 <img src="https://github.com/user-attachments/assets/3e476d7a-f1e6-4f7a-99fc-af1d9e1c4ff1" alt="Undo Last Input" height="40">
 
 6. **Exit**: When the user finishes writing, they can type `exit` to display the full story:
-<img src="https://github.com/user-attachments/assets/cb2d8a44-c8ef-4ac1-b2aa-f502e64d17e6" alt="Exit" height="60">
+<img src="https://github.com/user-attachments/assets/cb2d8a44-c8ef-4ac1-b2aa-f502e64d17e6" alt="Exit" height="70">
 
 This interaction record showcases how the user can input words, choose from auto-complete suggestions, predict the next word, and undo their last input in a seamless manner.
 
