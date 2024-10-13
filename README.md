@@ -27,8 +27,7 @@ The following example demonstrates how a user interacts with the AI Cyberpunk Th
 <img src="https://github.com/user-attachments/assets/e9424067-6d6e-42d8-b6b9-a72728fd0c36" alt="User Input" height="50">
 
 2. **Auto-complete Suggestions**: The program offers several auto-complete options for the last word entered:
-![160571728826941_ pic](https://github.com/user-attachments/assets/2520de8b-cc9c-4018-8cb8-a43b4c782850)
-<img src="https://github.com/user-attachments/assets/2520de8b-cc9c-4018-8cb8-a43b4c782850" alt="User Input" height="50">
+<img src="https://github.com/user-attachments/assets/2520de8b-cc9c-4018-8cb8-a43b4c782850" alt="User Input" height="80">
 
 3. **User Selection**: The user selects option 2:<br>
 Auto-complete: The robotic assistant
